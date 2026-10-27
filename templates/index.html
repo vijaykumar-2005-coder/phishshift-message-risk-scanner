@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishShift | Message Risk Scanner</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <p class="eyebrow">CYBERSECURITY • MESSAGE INTELLIGENCE</p>
+            <h1>Phish<span>Shift</span></h1>
+            <p class="subtitle">
+                Inspect suspicious messages before you trust them.
+            </p>
+        </header>
+
+        <section class="scanner">
+            <label for="message">Message to analyze</label>
+            <textarea id="message"
+                placeholder="Paste an email or SMS message here..."
+                maxlength="10000"></textarea>
+
+            <div class="actions">
+                <span id="charCount">0 / 10000</span>
+                <button id="scanButton">Analyze Message ↗</button>
+            </div>
+
+            <p id="status" role="status" aria-live="polite"></p>
+        </section>
+
+        <section id="results" class="results" hidden>
+            <p class="eyebrow">ANALYSIS REPORT</p>
+            <h2 id="resultTitle"></h2>
+            <p id="explanation"></p>
+            <h3>Observed risk indicators</h3>
+            <ul id="riskCues"></ul>
+            <p id="prototypeNote" class="note"></p>
+        </section>
+
+        <footer>
+            <p>
+                Educational prototype. No result guarantees that a
+                message is safe. Never share real passwords or private data.
+            </p>
+        </footer>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

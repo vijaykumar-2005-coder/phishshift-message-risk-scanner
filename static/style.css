@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #080d18;
+    color: #edf3ff;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+    width: min(760px, 92%);
+    margin: 0 auto;
+    padding: 65px 0 35px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.eyebrow {
+    color: #47e0c1;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: clamp(42px, 8vw, 64px);
+    margin: 16px 0;
+    letter-spacing: -2px;
+}
+
+h1 span {
+    color: #47e0c1;
+}
+
+.subtitle {
+    color: #9baac4;
+}
+
+.scanner, .results {
+    background: #111a2b;
+    border: 1px solid #26344c;
+    border-radius: 18px;
+    padding: 26px;
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    min-height: 190px;
+    resize: vertical;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #33435e;
+    background: #0a1221;
+    color: white;
+    font: inherit;
+    line-height: 1.6;
+}
+
+textarea:focus {
+    outline: 2px solid #47e0c1;
+    border-color: transparent;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+#charCount, #status, .note {
+    color: #9baac4;
+    font-size: 13px;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 13px 19px;
+    background: #47e0c1;
+    color: #07131a;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+
+.results h2 {
+    color: #47e0c1;
+}
+
+.results li {
+    margin: 10px 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    text-align: center;
+    color: #8290a8;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-top: 35px;
+    }
+
+    .scanner, .results {
+        padding: 19px;
+    }
+
+    .actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}

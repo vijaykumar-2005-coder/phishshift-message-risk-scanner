@@ -1,0 +1,41 @@
+message_id,channel,body_text,label,campaign_group,collected_date,source_type
+SYN001,SMS,Your parcel is waiting. Track your delivery using the courier app you already use.,legitimate,synthetic_legitimate_001,2026-10-01,synthetic_example
+SYN002,Email,"Hi team, the meeting has moved to Thursday at 10 AM. Please update your calendar.",legitimate,synthetic_legitimate_002,2026-10-02,synthetic_example
+SYN003,SMS,"Mum, I will reach home in about twenty minutes.",legitimate,synthetic_legitimate_003,2026-10-03,synthetic_example
+SYN004,Email,Your monthly statement is ready. Sign in through the bank's official app to view it.,legitimate,synthetic_legitimate_004,2026-10-04,synthetic_example
+SYN005,SMS,Reminder: your dentist appointment is tomorrow at 3 PM.,legitimate,synthetic_legitimate_005,2026-10-05,synthetic_example
+SYN006,Email,Thanks for your order. Your receipt is available in your account order history.,legitimate,synthetic_legitimate_006,2026-10-06,synthetic_example
+SYN007,SMS,Can you send me the notes from today's class when you get time?,legitimate,synthetic_legitimate_007,2026-10-07,synthetic_example
+SYN008,Email,"Your password reset was requested. If this was not you, open the service directly and review account security.",legitimate,synthetic_legitimate_008,2026-10-08,synthetic_example
+SYN009,SMS,The train is delayed by fifteen minutes. I will message you when it arrives.,legitimate,synthetic_legitimate_009,2026-10-09,synthetic_example
+SYN010,Email,Your subscription renews next month. Manage it from the settings page in the official app.,legitimate,synthetic_legitimate_010,2026-10-10,synthetic_example
+SYN011,SMS,Please confirm whether you can attend the project review on Friday.,legitimate,synthetic_legitimate_011,2026-10-11,synthetic_example
+SYN012,Email,Your payment was received. The invoice is available in your billing dashboard.,legitimate,synthetic_legitimate_012,2026-10-12,synthetic_example
+SYN013,SMS,Your library book is due next week. You can renew it at the library desk.,legitimate,synthetic_legitimate_013,2026-10-13,synthetic_example
+SYN014,Email,The assignment deadline is Monday. Ask the lecturer if you need an extension.,legitimate,synthetic_legitimate_014,2026-10-14,synthetic_example
+SYN015,SMS,I left your keys with the front desk. Please collect them after work.,legitimate,synthetic_legitimate_015,2026-10-15,synthetic_example
+SYN016,Email,"A new sign-in was detected. If you do not recognize it, navigate to the official website yourself and change your password.",legitimate,synthetic_legitimate_016,2026-10-16,synthetic_example
+SYN017,SMS,Your food order is being prepared. Check its status in the restaurant app.,legitimate,synthetic_legitimate_017,2026-10-17,synthetic_example
+SYN018,Email,The team documents were updated in the shared workspace.,legitimate,synthetic_legitimate_018,2026-10-18,synthetic_example
+SYN019,SMS,Happy birthday! Hope you have a wonderful day.,legitimate,synthetic_legitimate_019,2026-10-19,synthetic_example
+SYN020,Email,Your interview is scheduled for 11 AM tomorrow. Please reply to the recruiter if you need to reschedule.,legitimate,synthetic_legitimate_020,2026-10-20,synthetic_example
+SYN021,SMS,URGENT: your account will be locked. Verify your password immediately using this link.,phishing,synthetic_phishing_021,2026-10-21,synthetic_example
+SYN022,Email,Security alert: your mailbox will be deleted today unless you confirm your login credentials.,phishing,synthetic_phishing_022,2026-10-22,synthetic_example
+SYN023,SMS,You have won a cash prize. Pay a small processing fee now to claim it.,phishing,synthetic_phishing_023,2026-10-23,synthetic_example
+SYN024,Email,Your payroll is on hold. Reply with your password and one-time code to release the payment.,phishing,synthetic_phishing_024,2026-10-24,synthetic_example
+SYN025,SMS,Your bank account is frozen. Click the link and enter your PIN to restore access.,phishing,synthetic_phishing_025,2026-10-25,synthetic_example
+SYN026,Email,Final warning: confirm your account details immediately or lose access permanently.,phishing,synthetic_phishing_026,2026-10-26,synthetic_example
+SYN027,SMS,Claim your gift card now by sharing the verification code sent to your phone.,phishing,synthetic_phishing_027,2026-10-27,synthetic_example
+SYN028,Email,We detected a problem. Open this attached login page and enter your email password to continue.,phishing,synthetic_phishing_028,2026-10-01,synthetic_example
+SYN029,SMS,Your package cannot be delivered. Pay an unexpected redelivery fee through this link now.,phishing,synthetic_phishing_029,2026-10-02,synthetic_example
+SYN030,Email,Your cloud storage is full. Sign in through this urgent link to prevent all files being erased.,phishing,synthetic_phishing_030,2026-10-03,synthetic_example
+SYN031,SMS,Your account has suspicious activity. Send your one-time password to our agent now.,phishing,synthetic_phishing_031,2026-10-04,synthetic_example
+SYN032,Email,You are eligible for a refund. Provide your card number and security code to receive it.,phishing,synthetic_phishing_032,2026-10-05,synthetic_example
+SYN033,SMS,Your mobile service will be disconnected today. Confirm your identity and PIN immediately.,phishing,synthetic_phishing_033,2026-10-06,synthetic_example
+SYN034,Email,The CEO needs gift cards urgently. Buy them and send the redemption codes without telling anyone.,phishing,synthetic_phishing_034,2026-10-07,synthetic_example
+SYN035,SMS,Unpaid toll charge detected. Pay immediately using this unfamiliar payment link to avoid penalties.,phishing,synthetic_phishing_035,2026-10-08,synthetic_example
+SYN036,Email,Your document is waiting. Use this copied sign-in page and enter your corporate password.,phishing,synthetic_phishing_036,2026-10-09,synthetic_example
+SYN037,SMS,You have been selected for a guaranteed loan. Pay an upfront fee to unlock the funds.,phishing,synthetic_phishing_037,2026-10-10,synthetic_example
+SYN038,Email,Your account will be permanently suspended. Send your password to prove ownership.,phishing,synthetic_phishing_038,2026-10-11,synthetic_example
+SYN039,SMS,A refund is pending. Share your bank OTP with support to complete the transfer.,phishing,synthetic_phishing_039,2026-10-12,synthetic_example
+SYN040,Email,Important: your mailbox quota expires today. Enter credentials on this page to keep your account active.,phishing,synthetic_phishing_040,2026-10-13,synthetic_example
